@@ -37,5 +37,6 @@ size_t binary_tree_size(const binary_tree_t *tree);
 void size_count(const binary_tree_t *tree, int *counter);
 size_t binary_tree_leaves(const binary_tree_t *tree);
 int count_leaves(const binary_tree_t *tree);
+int binary_tree_is_full(const binary_tree_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
