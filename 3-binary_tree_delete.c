@@ -4,7 +4,7 @@
 
 /**
 * binary_tree_delete - clear binary tree
-* @tree - root of tree
+* @tree: root of tree
 */
 
 void binary_tree_delete(binary_tree_t *tree)
