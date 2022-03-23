@@ -16,7 +16,16 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 
 	uncle = uncle->parent;
 	if (uncle->right != tmp)
-		return (uncle->right);
+	{
+		if (uncle->right)
+			return (uncle->right);
+		return (NULL);
+	}
 	else
-		return (uncle->left);
+	{
+		if (uncle->left)
+			return (uncle->left);
+		else
+			return (NULL);
+	}
 }
